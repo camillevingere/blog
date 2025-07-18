@@ -9,15 +9,15 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Blog - Le Décodeur',
-  domain: 'blog.le-decodeur.com',
-  author: 'Camille Vingere',
+  name: 'Blog - Camille Roy',
+  domain: 'camilleroy.dev',
+  author: 'Camille Roy',
 
   // open graph metadata (optional)
-  description: `Le Décodeur est un blog écrit par un développeur pour les développeurs. J'aime partager mes expériences et mes réflexions sur le code et l'univers SaaS.`,
+  description: `This is a blog written by an Indie Hacker for Indie Hackers. I like to share my experiences and thoughts on code and the SaaS universe.`,
 
   // social usernames (optional)
-  twitter: 'camilleroy_dev',
+  twitter: 'camilleroyyy',
   github: 'camillevingere',
   linkedin: 'camille-vingere-developpeur-fullstack',
   // mastodon: '#', // optional mastodon profile URL, provides link verification

@@ -54,8 +54,8 @@ importers:
         specifier: ^7.1.1
         version: 7.1.1
       posthog-js:
-        specifier: ^1.181.0
-        version: 1.181.0
+        specifier: ^1.257.0
+        version: 1.257.0
       prismjs:
         specifier: ^1.29.0
         version: 1.29.0
@@ -69,8 +69,8 @@ importers:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
       react-notion-x:
-        specifier: ^7.3.0
-        version: 7.3.0(@babel/runtime@7.26.0)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^7.4.2
+        version: 7.4.2(@babel/runtime@7.26.0)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-tweet:
         specifier: ^3.2.1
         version: 3.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1589,6 +1589,10 @@ packages:
     resolution: {integrity: sha512-IO9QvjUMWxPQQhs60oOu10CRkWCiZzSUkzbXGGV9pviYl1fXYcvkzQ5jV9z8Y6un8ARoVRl4EtC6v6jNqbaJ/w==}
     engines: {node: '>=14.16'}
 
+  normalize-url@8.0.2:
+    resolution: {integrity: sha512-Ee/R3SyN4BuynXcnTaekmaVdbDAEiNrHqjQIA37mHU8G9pf7aaAD4ZX3XjBLo6rsdcxA/gtkcNYZLt30ACgynw==}
+    engines: {node: '>=14.16'}
+
   notion-client@7.1.3:
     resolution: {integrity: sha512-84K4h/pD8fSIth5cKF0qUcHTqGdzzQ6x6hMVErZzbIFcXlOmJvHROd+no5epcMnw1juuIdeDbodN/wT8+U53OA==}
     engines: {node: '>=18'}
@@ -1597,16 +1601,16 @@ packages:
     resolution: {integrity: sha512-kUcMa5SXpzNxmE9PdrSjiP1lmba8ue7+KdMjcmq8QO/wOmdmXCKhr1FHXNqP5Wdxmm2i9sDq87x0S1pA/vJ4kg==}
     engines: {node: '>=18'}
 
-  notion-types@7.3.0:
-    resolution: {integrity: sha512-XAS9vZPRPoPEs95UXEeuQp1OsfWeVSruG6qujnDOEHA7aRMHiuSv/Oqm2wZfpDHz+nnUyPIX3JZhcmNnjc3jlQ==}
+  notion-types@7.4.2:
+    resolution: {integrity: sha512-mCFra6z7DUcNXV11ypufmqcZL8poYAfSwSSyPBnuvzauGfH9MLDJ2Uv31H/0MFtn9qqddDdxV5lHkIzY1IRysg==}
     engines: {node: '>=18'}
 
   notion-utils@7.1.3:
     resolution: {integrity: sha512-52dReJMdEBt6O4f/Y9FZqhRNBoDY73p0i1XSqpunaTzxIQW61St6a+8bhZ0HiFPpXvxPUw7HCBfNAqn0CrmF2A==}
     engines: {node: '>=18'}
 
-  notion-utils@7.3.0:
-    resolution: {integrity: sha512-+ifyB8SmSzB/MID/2fly338ZRTR7Ug8RNp7XyK3TlvM5iJZbo+YyAOTfDv41y342NleCibx50iBLQAJwb+GD6Q==}
+  notion-utils@7.4.2:
+    resolution: {integrity: sha512-ga1+bhs9GLEpeYtP+gfc/PPgiVSTsyVtlZpArfjmNcPADMZdHCfZdVEjqW5NFMbVGsCMp7y7oabvuWqJvkAVnw==}
     engines: {node: '>=18'}
 
   npm-normalize-package-bin@4.0.0:
@@ -1713,6 +1717,10 @@ packages:
     resolution: {integrity: sha512-UJUyfKbwvr/uZSV6btANfb+0t/mOhKV/KXcCUTp8FcQI+v/0d+wXqH4htrW0E4rR6WiEO/EPvUFiV9D5OI4vlw==}
     engines: {node: '>=14.16'}
 
+  p-timeout@6.1.4:
+    resolution: {integrity: sha512-MyIV3ZA/PmyBN/ud8vV9XzwTrNtR4jFrObymZYnZqMmW0zA8Z17vnT0rBgFE/TlohB+YCHqXMgZzb3Csp49vqg==}
+    engines: {node: '>=14.16'}
+
   p-try@2.2.0:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
@@ -1776,8 +1784,16 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-js@1.181.0:
-    resolution: {integrity: sha512-bI+J+f4E8x4JwbGtG6LReQv1Xvss01F6cs7UDlvffHySpVhNq4ptkNjV88B92IVEsrCtNYhy/TjFnGxk6RN0Qw==}
+  posthog-js@1.257.0:
+    resolution: {integrity: sha512-Ujg9RGtWVCu+4tmlRpALSy2ZOZI6JtieSYXIDDdgMWm167KYKvTtbMPHdoBaPWcNu0Km+1hAIBnQFygyn30KhA==}
+    peerDependencies:
+      '@rrweb/types': 2.0.0-alpha.17
+      rrweb-snapshot: 2.0.0-alpha.17
+    peerDependenciesMeta:
+      '@rrweb/types':
+        optional: true
+      rrweb-snapshot:
+        optional: true
 
   preact@10.24.3:
     resolution: {integrity: sha512-Z2dPnBnMUfyQfSQ+GBdsGa16hz35YmLmtTLhM169uW944hYL6xzTYkJjC07j+Wosz733pMWx0fgON3JNw1jJQA==}
@@ -1868,8 +1884,8 @@ packages:
       react: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18 || ^19
       react-dom: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18 || ^19
 
-  react-notion-x@7.3.0:
-    resolution: {integrity: sha512-0gUPN8cGHod4DXc3u/zXRTJTcb90sReL5uLfp6QA5LBV33axPL+6WFphAaMECL5d2U6XiDpDJoK9UCNnMNvr3A==}
+  react-notion-x@7.4.2:
+    resolution: {integrity: sha512-fST9c72FWg92ayfYgI5WQe6ad4c33s+8Zk6h2pfND3cLTtkD2m+Y0yCs6jJbP8E+I7hbFyg1J4QbPD/d5qkV6A==}
     engines: {node: '>=18'}
     peerDependencies:
       react: '>=18'
@@ -3993,6 +4009,8 @@ snapshots:
 
   normalize-url@8.0.1: {}
 
+  normalize-url@8.0.2: {}
+
   notion-client@7.1.3:
     dependencies:
       ky: 1.7.2
@@ -4002,7 +4020,7 @@ snapshots:
 
   notion-types@7.1.3: {}
 
-  notion-types@7.3.0: {}
+  notion-types@7.4.2: {}
 
   notion-utils@7.1.3:
     dependencies:
@@ -4012,12 +4030,12 @@ snapshots:
       notion-types: 7.1.3
       p-queue: 8.0.1
 
-  notion-utils@7.3.0:
+  notion-utils@7.4.2:
     dependencies:
       is-url-superb: 6.1.0
       memoize: 10.1.0
-      normalize-url: 8.0.1
-      notion-types: 7.3.0
+      normalize-url: 8.0.2
+      notion-types: 7.4.2
       p-queue: 8.1.0
 
   npm-normalize-package-bin@4.0.0: {}
@@ -4125,13 +4143,15 @@ snapshots:
   p-queue@8.1.0:
     dependencies:
       eventemitter3: 5.0.1
-      p-timeout: 6.1.3
+      p-timeout: 6.1.4
 
   p-timeout@3.2.0:
     dependencies:
       p-finally: 1.0.0
 
   p-timeout@6.1.3: {}
+
+  p-timeout@6.1.4: {}
 
   p-try@2.2.0: {}
 
@@ -4181,7 +4201,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-js@1.181.0:
+  posthog-js@1.257.0:
     dependencies:
       core-js: 3.39.0
       fflate: 0.4.8
@@ -4290,13 +4310,13 @@ snapshots:
       react-lifecycles-compat: 3.0.4
       warning: 4.0.3
 
-  react-notion-x@7.3.0(@babel/runtime@7.26.0)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-notion-x@7.4.2(@babel/runtime@7.26.0)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@fisch0920/medium-zoom': 1.0.7
       '@matejmazur/react-katex': 3.1.3(katex@0.16.22)(react@18.3.1)
       katex: 0.16.22
-      notion-types: 7.3.0
-      notion-utils: 7.3.0
+      notion-types: 7.4.2
+      notion-utils: 7.4.2
       prismjs: 1.30.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
